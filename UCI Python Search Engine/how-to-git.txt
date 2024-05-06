@@ -1,0 +1,17 @@
+- How to get the latest change from main branch:
+  
+  ```git pull origin main```
+- How to commit new changes:
+
+  ```
+  git add .
+  git commit -m "Message"
+  git push origin main
+  ```
+
+- In case you forgot to pull and made some new changes on your local repo
+  ```
+  git stash
+  git pull origin main
+  git stash apply
+  ```
